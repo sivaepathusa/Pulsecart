@@ -144,8 +144,7 @@ LEFT JOIN customers c
 WHERE c.customer_id IS NULL
 ORDER BY o.order_id;
 
--- Q6.top 20 customers by net revenue?
--- Cancelled orders are excluded and returned orders are subtracted.
+-- Q6.top 20 customers by net revenue(Cancelled orders are excluded and returned orders are subtracted)?
 
 SELECT
     c.customer_id,
